@@ -24,3 +24,5 @@ button.addEventListener('click', () => {
 
 p.style.color = 'darkblue'
 p.style.backgroundColor = 'lightblue'
+
+
