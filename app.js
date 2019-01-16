@@ -59,3 +59,15 @@ const evens = document.querySelectorAll('li: nth-child(odd)');
 for(let i= 0; i< evens.length; i += 1){
   evens[i].style.backgroundColor = 'blue';
 }
+
+//Mozilla developement Network
+//getElementsByClassName- method of document object
+
+//canIUse.com - anyCSS feature
+//find browsers that support this feature/ const keywork.
+
+//find a detailed history of how it is.
+
+//How to read and change text.
+//text content and inner html
+
