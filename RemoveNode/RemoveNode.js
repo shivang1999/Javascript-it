@@ -6,6 +6,17 @@ const descriptionbutton = document.querySelector('button');
 const addItemInput = document.querySelector('input.addItemInput');
 const addItemButton = document.querySelector('button.addItemButton');
 const removeItemButton = document.querySelector('button.removeItemButton');
+const listItems = document.getElementsByTagName('li')[0];
+
+
+
+listItems.addEventListener('mouseover', ()=> {
+  listItems.textContent = listItems.textContent.toUpperCase();
+});
+
+listItems.addEventListener('mouseout', ()=> {
+  listItems.textContent = listItems.textContent.toLowerCase();
+});
 
 
 toggleList.addEventListener('click', () => {
@@ -41,3 +52,30 @@ removeItemButton.addEventListener('click', () => {
   
 
 });
+
+
+
+
+// //Function as an argument in a function
+
+// say('Hello');
+
+// function exec(func, arg) {
+//   func(arg) ;
+// }
+
+// exec(function say(something) {
+//   console.log(something);
+// }, 'Hi,there');
+
+// exec((something)) => {
+//   console.log(something);
+// }, 'Greetings, everyone');
+
+// //add event listener has three forms-
+
+// //Event Target.addEventListener() 
+// //event target can be an element, or a window object.
+
+
+
